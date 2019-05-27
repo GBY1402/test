@@ -1,0 +1,314 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    
+    <link class="component" href="/snc/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAFrvajdHLp8hjQAEgwDtA__" rel="stylesheet" type="text/css" />
+    <link class="component" href="/snc/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAFrvajdHLp8hjQAEgwDtA__" media="rich-extended-skinning" rel="stylesheet" type="text/css" />
+    <script src="/snc/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript" type="text/javascript"></script>
+    <script src="/snc/a4j/g/3_3_3.Finalorg/ajax4jsf/javascript/scripts/form.js" type="text/javascript"></script>
+    <script src="/snc/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.PrototypeScript" type="text/javascript"></script>
+    <script src="/snc/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/utils.js" type="text/javascript"></script>
+    <script src="/snc/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/json/json-dom.js" type="text/javascript"></script>
+    <script src="/snc/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/js/FileUpload.js" type="text/javascript"></script>
+    <script src="/snc/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/js/swfobject.js" type="text/javascript"></script>
+    <script src="/snc/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/js/progressBar.js" type="text/javascript"></script>
+    <link class="component" href="/snc/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/fileUpload.xcss/DATB/eAFrvajdHLp8hjQAEgwDtA__" rel="stylesheet" type="text/css" />
+    <link class="component" href="/snc/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/progressBar.xcss/DATB/eAFrvajdHLp8hjQAEgwDtA__" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/snc/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js" type="text/javascript"></script>
+    <script src="/snc/a4j/g/3_3_3.Finaljquery.js" type="text/javascript"></script><link href="/snc/iframe/skin/snc/ui.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/message.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/areaPanel.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/titlePanel.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/captionPanel.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/groupPanel.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/tabPanel.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/table.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/tableContent.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/tableEdit.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/panelBar.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/linkBar.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="/snc/iframe/skin/snc/dropdown.css" media="screen" rel="Stylesheet" type="text/css" />
+        <link href="/snc/iframe/skin/snc/dialogLayout.css" media="screen" rel="Stylesheet" type="text/css" />
+    <!-- JQuery support -->
+    <!-- blockUI js-->
+    <script src="/snc/iframe/js/jquery-ui-1.5.3.js" type="text/javascript"></script>
+    <!-- custom js--> 
+    <script src="/snc/iframe/js/string.js" type="text/javascript"></script> 
+    <script src="/snc/iframe/js/queryString.js" type="text/javascript"></script>    
+    <script src="/snc/iframe/js/ui.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+        UI.instance = new UI({contextPath:"/snc", skinPath:"/snc/iframe/skin/snc"});
+        //for compatible
+        function Layout() {}
+        Layout.prototype.ie6CssFixed = function() {}
+        Layout.instance = new Layout();
+        
+     //   $(document).find("div[@class='sncNavigation']").attr('display',true);
+    //]]>
+    </script>
+    <script src="/snc/iframe/js/global.js" type="text/javascript"></script>
+    <script src="/snc/iframe/js/message.js" type="text/javascript"></script>
+    <script src="/snc/iframe/js/panelBar.js" type="text/javascript"></script>
+    <script src="/snc/iframe/js/textTip.js" type="text/javascript"></script>     
+    <script src="/snc/iframe/js/dropdown.js" type="text/javascript"></script>
+        <script src="/snc/iframe/js/dialogLayout.js" type="text/javascript"></script>
+        <script src="/snc/iframe/js/jquery.ba-resize.js" type="text/javascript"></script>   
+        <script type="text/javascript">
+        //<![CDATA[
+            DialogLayout.instance = new DialogLayout({title: '修改设备厂商', 
+                width: '600', height: '380', autoHeight: true
+                });
+        //]]>
+        </script>   
+</head>
+
+<body onload="javascript:window.status='Finished';">
+        <div class="dialogLayout "><form id="deviceVendorEditForm" name="deviceVendorEditForm" method="post" action="/snc/system/deviceVendorEdit.seam">
+                <div class="contentPane" style="overflow: auto;">
+        <table border="0" cellpadding="0" cellspacing="0" class="tableEdit">    
+            <tbody><input id="deviceVendorEditForm:id" type="hidden" name="deviceVendorEditForm:id" value="1505" />
+    
+        <tr id="emp_device_vendorManage_vendorNameTR" style="" class="">
+            <td class="odd labelTd" id="emp_device_vendorManage_vendorNameTD"><span id="deviceVendorEditForm:emp_device_vendorManage_vendorNameRequired" style="color:red">*</span><label id="deviceVendorEditForm:emp_device_vendorManage_vendorNameLabel">
+&#21378;&#21830;&#21517;&#31216;</label>
+            </td>
+            <td class="even inputTdAutoWidth">  
+                    
+                    
+                    <!-- 定义验证规则 --><input id="deviceVendorEditForm:emp_device_vendorManage_vendorName" type="text" name="deviceVendorEditForm:emp_device_vendorManage_vendorName" value="&#22825;&#34701;&#20449;" class="text" maxlength="32" onblur="A4J.AJAX.Submit('deviceVendorEditForm',event,{'control':this,'similarityGroupingId':'deviceVendorEditForm:j_id18','parameters':{'ajaxSingle':'deviceVendorEditForm:emp_device_vendorManage_vendorName','deviceVendorEditForm:j_id18':'deviceVendorEditForm:j_id18'} } )" onchange="trimInput(this.id);replaceNull(this);" onkeypress="if(event.keyCode==13){this.value=this.value.trim();}" size="30" /><span id="deviceVendorEditForm:emp_device_vendorManage_vendorNameMessagePanel"></span><div id="deviceVendorEditForm:j_id19">     
+                    <script type="text/javascript">
+                        if(false) {
+                            initDisplayCondition(
+                                ":",
+                                "",
+                                "",
+                                "emp_device_vendorManage_vendorName",
+                                "emp_device_vendorManage_vendorNameLabel",
+                                "emp_device_vendorManage_vendorNameTR"
+                            );
+                        }
+                        function replaceNull(txtinput) {
+                            var p1=/(^　*)|(　*$)/g
+                            txtinput.value=txtinput.value.replace(p1,"");
+                        }   
+                    </script></div>
+            </td>   
+        </tr>
+    
+        <tr id="emp_device_vendorManage_vendorShortNameTR" style="" class="">
+            <td class="odd labelTd" id="emp_device_vendorManage_vendorShortNameTD"><span id="deviceVendorEditForm:emp_device_vendorManage_vendorShortNameRequired" style="color:red">*</span><label id="deviceVendorEditForm:emp_device_vendorManage_vendorShortNameLabel">
+&#21517;&#31216;&#31616;&#20889;</label>
+            </td>
+            <td class="even inputTdAutoWidth">  
+                    
+                    
+                    <!-- 定义验证规则 --><input id="deviceVendorEditForm:emp_device_vendorManage_vendorShortName" type="text" name="deviceVendorEditForm:emp_device_vendorManage_vendorShortName" value="TOPSEC" class="text" maxlength="25" onblur="A4J.AJAX.Submit('deviceVendorEditForm',event,{'control':this,'similarityGroupingId':'deviceVendorEditForm:j_id27','parameters':{'ajaxSingle':'deviceVendorEditForm:emp_device_vendorManage_vendorShortName','deviceVendorEditForm:j_id27':'deviceVendorEditForm:j_id27'} } )" onchange="trimInput(this.id);replaceNull(this);" onkeypress="if(event.keyCode==13){this.value=this.value.trim();}" size="30" /><span id="deviceVendorEditForm:emp_device_vendorManage_vendorShortNameMessagePanel"></span><div id="deviceVendorEditForm:j_id28">       
+                    <script type="text/javascript">
+                        if(false) {
+                            initDisplayCondition(
+                                ":",
+                                "",
+                                "",
+                                "emp_device_vendorManage_vendorShortName",
+                                "emp_device_vendorManage_vendorShortNameLabel",
+                                "emp_device_vendorManage_vendorShortNameTR"
+                            );
+                        }
+                        function replaceNull(txtinput) {
+                            var p1=/(^　*)|(　*$)/g
+                            txtinput.value=txtinput.value.replace(p1,"");
+                        }   
+                    </script></div>
+            </td>   
+        </tr>
+    
+        <tr id="emp_device_vendorManage_vendorContactTR" style="" class="">
+            <td class="odd labelTd" id="emp_device_vendorManage_vendorContactTD"><span id="deviceVendorEditForm:emp_device_vendorManage_vendorContactRequired" style="color:red"></span><label id="deviceVendorEditForm:emp_device_vendorManage_vendorContactLabel">
+&#32852;&#31995;&#26041;&#24335;</label>
+            </td>
+            <td class="even inputTdAutoWidth">  
+                    
+                    
+                    <!-- 定义验证规则 --><input id="deviceVendorEditForm:emp_device_vendorManage_vendorContact" type="text" name="deviceVendorEditForm:emp_device_vendorManage_vendorContact" class="text" maxlength="100" onblur="A4J.AJAX.Submit('deviceVendorEditForm',event,{'control':this,'similarityGroupingId':'deviceVendorEditForm:j_id35','parameters':{'ajaxSingle':'deviceVendorEditForm:emp_device_vendorManage_vendorContact','deviceVendorEditForm:j_id35':'deviceVendorEditForm:j_id35'} } )" onchange="trimInput(this.id);replaceNull(this);" onkeypress="if(event.keyCode==13){this.value=this.value.trim();}" size="30" /><span id="deviceVendorEditForm:emp_device_vendorManage_vendorContactMessagePanel"></span><div id="deviceVendorEditForm:j_id36">     
+                    <script type="text/javascript">
+                        if(false) {
+                            initDisplayCondition(
+                                ":",
+                                "",
+                                "",
+                                "emp_device_vendorManage_vendorContact",
+                                "emp_device_vendorManage_vendorContactLabel",
+                                "emp_device_vendorManage_vendorContactTR"
+                            );
+                        }
+                        function replaceNull(txtinput) {
+                            var p1=/(^　*)|(　*$)/g
+                            txtinput.value=txtinput.value.replace(p1,"");
+                        }   
+                    </script></div>
+            </td>   
+        </tr>
+
+            <tr>
+                <td class="odd">
+                    &#21378;&#21830;&#22270;&#26631;
+                </td>
+
+                <td class="even"><span id="deviceVendorEditForm:pg2"><img src="/snc/images/help.gif" /></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="odd">
+                    &#19978;&#20256;&#21378;&#21830;&#22270;&#26631;
+                </td>
+
+                <td class="even"><div class="rich-fileupload-list-decor " id="deviceVendorEditForm:logoup" style="width: 450px"><span style="display: none;"><div class="rich-progress-bar-block rich-progress-bar-width rich-progress-bar-shell " id="deviceVendorEditForm:logoup_rich_progress"><div class="rich-progress-bar-height rich-progress-bar-uploaded null" id="deviceVendorEditForm:logoup_rich_progress:upload" style="; width: 0%;"> </div><span style="display: none;"><script type="text/javascript">new ProgressBar('deviceVendorEditForm:logoup_rich_progress',{'markup':null,'minValue':-1,'value':0,'state':'progressState','options':{'pollId':'deviceVendorEditForm:logoup_rich_progress','similarityGroupingId':'deviceVendorEditForm:logoup_rich_progress','parameters':{'percent':'percent','ajaxSingle':'deviceVendorEditForm:logoup_rich_progress','deviceVendorEditForm:logoup_rich_progress':'deviceVendorEditForm:logoup_rich_progress'} ,'pollinterval':1000} } )
+;
+$('deviceVendorEditForm:logoup_rich_progress').component.renderLabel(null,null);
+
+A4J.AJAX.StopPoll('deviceVendorEditForm:logoup_rich_progress');
+;
+</script></span></div></span><table class="rich-fileupload-toolbar-decor"><tr><td><div class="rich-fileupload-button-border" style=" float:left;"><div class="rich-fileupload-button rich-fileupload-font null" id="deviceVendorEditForm:logoup:add1" onmousedown="this.className='rich-fileupload-button-press rich-fileupload-font'" onmouseout="this.className='rich-fileupload-button rich-fileupload-font'" onmouseover="this.className='rich-fileupload-button-light rich-fileupload-font'" onmouseup="this.className='rich-fileupload-button rich-fileupload-font'" style="position: relative;"><div class="rich-fileupload-button-content rich-fileupload-font rich-fileupload-ico rich-fileupload-ico-add null" id="deviceVendorEditForm:logoup:add2" style="position: relative;">&#36873;&#25321;...</div><div style="overflow : hidden; position : absolute; top : 0px; left : 0px; padding: 0px;"><input autocomplete="off" class="rich-fileupload-hidden" id="deviceVendorEditForm:logoup:file" name="deviceVendorEditForm:logoup:file" onchange="return $('deviceVendorEditForm:logoup').component.add(this);" style="cursor: pointer; right: 0px; top: 0px; font-size: 10em; position: absolute; padding: 0px" type="file" /></div><div id="deviceVendorEditForm:logoup:flashContainer" style="display:none"></div></div></div><div class="rich-fileupload-button-border" style=" float:left; display: none;"><div class="rich-file-upload-button rich-fileupload-font hideButton" id="deviceVendorEditForm:logoup:upload1" onclick="return $('deviceVendorEditForm:logoup').component.upload();" onmousedown="this.className='rich-fileupload-button-press rich-fileupload-font'" onmouseout="this.className='rich-fileupload-button rich-fileupload-font'" onmouseover="this.className='rich-fileupload-button-light rich-fileupload-font'" onmouseup="this.className='rich-fileupload-button rich-fileupload-font'" style="position: relative;"><div class="rich-fileupload-button-content rich-fileupload-font rich-fileupload-ico rich-fileupload-ico-start hideButton" id="deviceVendorEditForm:logoup:upload2">&#19978;&#20256;</div></div></div><div class="rich-fileupload-button-border" style=" float:right; display: none;"><div class="rich-fileupload-button rich-fileupload-font " id="deviceVendorEditForm:logoup:clean1" onclick="return $('deviceVendorEditForm:logoup').component.clear();" onmousedown="this.className='rich-fileupload-button-press rich-fileupload-font'" onmouseout="this.className='rich-fileupload-button rich-fileupload-font'" onmouseover="this.className='rich-fileupload-button-light rich-fileupload-font'" onmouseup="this.className='rich-fileupload-button rich-fileupload-font'" style="position: relative;"><div class="rich-fileupload-button-content rich-fileupload-font rich-fileupload-ico rich-fileupload-ico-clear-dis " id="deviceVendorEditForm:logoup:clean2"></div></div></div></td></tr></table><div class="rich-fileupload-list-overflow " id="deviceVendorEditForm:logoup:fileItems" style="width: 100%; height: 64px"></div><span><script type="text/javascript">new FileUpload('deviceVendorEditForm:logoup','/snc/system/deviceVendorEdit.seam', function(uid,action,callback,event){A4J.AJAX.Submit('deviceVendorEditForm',event,{'similarityGroupingId':'deviceVendorEditForm:logoup','parameters':{'ajaxSingle':'deviceVendorEditForm:logoup','deviceVendorEditForm:logoup':'deviceVendorEditForm:logoup','_richfaces_upload_uid':uid,'_richfaces_file_upload_action':action} ,'onbeforedomupdate':callback} )}, 'deviceVendorEditForm:logoup_rich_progress',
+                    'BAFE3EA392F3603EE0ECF71F5AEA1C84',{'classes':{'UPDATE':{'ENABLED':'hideButton','DISABLED':'rich\x2Dfileupload\x2Dbold\x2Dlabel'} ,'STOP':{'ENABLED':'hideButton','DISABLED':'rich\x2Dfileupload\x2Dbold\x2Dlabel'} } ,'labels':{'progress':'RICH_FILE_UPLOAD_PROGRESS_LABEL','stop':'','done':'\u4E0A\u4F20\u6587\u4EF6\u6210\u529F','entry_cancel':'','entry_clear':'','clear_all':'','transfer_error':'\u6587\u4EF6\u4E0A\u4F20\u8FC7\u7A0B\u4E2D\u4F20\u8F93\u9519\u8BEF\u6216\u6587\u4EF6\u5927\u5C0F\u8D85\u8FC7\u4E0A\u9650\uFF0C\u8BF7\u91CD\u65B0\u4E0A\u4F20','size_error':'\u6587\u4EF6\u5927\u5C0F\u8D85\u51FA\u9650\u5236(\u6700\u5927\u4E3A100KB)\uFF0C\u8BF7\u91CD\u65B0\u9009\u62E9\u6587\u4EF6','add':'\u9009\u62E9...','entry_stop':'','upload':'\u4E0A\u4F20'} ,'fields':{'events':{'onerror':function(event){A4J.AJAX.Submit('deviceVendorEditForm',event,{'oncomplete':function(request,event,data){alert('文件上传过程中传输错误或文件大小超过上限，请重新上传')},'similarityGroupingId':'deviceVendorEditForm:j_id46','parameters':{'deviceVendorEditForm:j_id46':'deviceVendorEditForm:j_id46'} } )},'onuploadcomplete':function(event){A4J.AJAX.Submit('deviceVendorEditForm',event,{'oncomplete':function(request,event,data){resetImage();},'similarityGroupingId':'deviceVendorEditForm:j_id44','parameters':{'deviceVendorEditForm:j_id44':'deviceVendorEditForm:j_id44'} } )},'onclear':function(event){A4J.AJAX.Submit('deviceVendorEditForm',event,{'control':this,'similarityGroupingId':'deviceVendorEditForm:j_id45','parameters':{'ajaxSingle':'deviceVendorEditForm:logoup','deviceVendorEditForm:j_id45':'deviceVendorEditForm:j_id45'} } )},'ontyperejected':function(event){typeRejectedLogo();}} ,'acceptedTypes':{'jpg':true,'png':true,'gif':true} ,'options':{'immediateUpload':true,'flashComponentUrl':'/snc/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/swf/FileUploadComponent.swf'} } } );</script></span></div>
+                    <div style="height:3px;"></div>
+                </td>
+            </tr>
+    <tr id="emp_device_vendorManage_vendorDescriptionTR" class="">
+        <td class="odd"><label id="deviceVendorEditForm:emp_device_vendorManage_vendorDescriptionLabel">
+&#21378;&#21830;&#25551;&#36848;</label></td>
+        <td class="even"> 
+            
+            <script type="text/javascript">
+                var isSelected = false;
+                function selected(){
+                    isSelected = true;
+                }
+                function nonSelected(){
+                    isSelected = false;
+                }
+                function replaceNull(txtinput)
+                {
+                    var p1=/(^　*)|(　*$)/g
+                    txtinput.value=txtinput.value.replace(p1,"");
+                }   
+            </script>
+
+                <!-- 定义验证规则 --><textarea id="deviceVendorEditForm:emp_device_vendorManage_vendorDescription" name="deviceVendorEditForm:emp_device_vendorManage_vendorDescription" class="textarea" cols="50" onblur="A4J.AJAX.Submit('deviceVendorEditForm',event,{'control':this,'similarityGroupingId':'deviceVendorEditForm:j_id54','parameters':{'ajaxSingle':'deviceVendorEditForm:emp_device_vendorManage_vendorDescription','deviceVendorEditForm:j_id54':'deviceVendorEditForm:j_id54'} } )" onchange="trimInput(this.id);replaceNull(this);if(event){if(this.value.length&gt;100){this.value=this.value.substr(0,100);}}" onkeypress="if(event){if(event.keyCode==13){window.event.cancelBubble = true;}if(this.value.length&gt;=100&amp;&amp;!isSelected){event.returnValue=false;}nonSelected();}" onkeyup="if(event){if(this.value.length&gt;100){this.value=this.value.substr(0,100);}}" onselect="selected();" rows="5"></textarea><span id="deviceVendorEditForm:emp_device_vendorManage_vendorDescriptionMessagePanel"></span></td>
+    </tr>
+            </tbody>
+        </table><div id="deviceVendorEditForm:j_id57" class="messageTip">
+            <div class="ico">&#25552;&#31034;:</div>
+            &#27880;&#24847;&#65306;&#19978;&#20256;&#30340;&#21378;&#21830;&#22270;&#26631;&#23485;&#24230;&#21644;&#39640;&#24230;&#19981;&#36229;&#36807;18&#20687;&#32032;&#65292;&#25991;&#20214;&#22823;&#23567;&#19981;&#36229;&#36807;10KB&#65292;&#31867;&#22411;&#20165;&#38480;jpg&#12289;gif&#12289;png&#12290;</div>
+                </div>
+                <div class="buttonPane">
+
+        <script>
+            function typeRejectedLogo() {
+                var obj = document.getElementById("deviceVendorEditForm:logoup:file");
+                obj.outerHTML = obj.outerHTML;
+                alert('允许上传类型:JPG,GIF,PNG');
+            }
+
+            jQuery(document).ready(function(){
+                // resetImage();
+            });
+
+            function resetImage(){
+                var MAX_WIDTH = 600;
+                var obj = jQuery("#deviceVendorEditForm\\:logo");
+                if(parseInt(obj.attr("width")) > MAX_WIDTH){
+                    obj.attr("width", MAX_WIDTH);
+                }
+            }
+        </script><input class="button" id="deviceVendorEditForm:updateBtn" name="deviceVendorEditForm:updateBtn" onclick="mask();A4J.AJAX.Submit('deviceVendorEditForm',event,{'oncomplete':function(request,event,data){maskHide();UI.instance.reRender('reRenderTable');},'similarityGroupingId':'deviceVendorEditForm:updateBtn','parameters':{'deviceVendorEditForm:updateBtn':'deviceVendorEditForm:updateBtn'} } );return false;" value="&#20445;&#23384;" type="button" />
+            <input type="button" class="button" value="&#21462;&#28040;" onclick="javascript:DialogLayout.instance.close();" />
+                </div><input type="hidden" autocomplete="off" name="deviceVendorEditForm" value="deviceVendorEditForm" /><input type="hidden" autocomplete="off" name="autoScroll" value="" /><input type="hidden" autocomplete="off" name="deviceVendorEditForm:j_idcl" value="" /><input type="hidden" autocomplete="off" name="deviceVendorEditForm:_link_hidden_" value="" /><script type="text/javascript">function clear_deviceVendorEditForm() {
+_clearJSFFormParameters('deviceVendorEditForm','',['deviceVendorEditForm:j_idcl','deviceVendorEditForm:_link_hidden_']);
+}
+function clearFormHiddenParams_deviceVendorEditForm(){clear_deviceVendorEditForm();}
+function clearFormHiddenParams_deviceVendorEditForm(){clear_deviceVendorEditForm();}
+clear_deviceVendorEditForm();</script><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id6" /></form>
+        </div><form id="j_id65" name="j_id65" method="post" class="display:none;" action="/snc/system/deviceVendorEdit.seam"><script id="j_id65:j_id66" type="text/javascript">//<![CDATA[
+        dialogReRender=function(){A4J.AJAX.Submit('j_id65',null,{'similarityGroupingId':'j_id65:j_id66','parameters':{'j_id65:j_id66':'j_id65:j_id66'} } )};
+        //]]></script><input type="hidden" autocomplete="off" name="j_id65" value="j_id65" /><input type="hidden" autocomplete="off" name="autoScroll" value="" /><input type="hidden" autocomplete="off" name="j_id65:_link_hidden_" value="" /><input type="hidden" autocomplete="off" name="j_id65:j_idcl" value="" /><script type="text/javascript">function clear_j_id65() {
+_clearJSFFormParameters('j_id65','',['j_id65:_link_hidden_','j_id65:j_idcl']);
+}
+function clearFormHiddenParams_j_id65(){clear_j_id65();}
+function clearFormHiddenParams_j_id65(){clear_j_id65();}
+clear_j_id65();</script><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id6" /></form><div id="deviceVendorEditScripts" class="display:none;">
+            <script type="text/javascript">
+            //<![CDATA[
+                //for show tip message and close dialog
+                var isSuccess = '';
+                if(isSuccess === 'true'){   
+                    maskHide();
+                    DialogLayout.instance.close();
+                }
+                if (!true) {
+                    DialogLayout.instance.resize();
+                }
+            //]]>
+            </script></div><div id="globalMessage" class="display:none;">
+        <script language="javascript">
+        //<![CDATA[
+            var messages = new Array();
+        //]]>
+        </script>
+        <script language="javascript">
+        //<![CDATA[
+            if(false) {
+                messages[messages.length] = new Array('','');
+            }
+
+            if(false) {
+                UI.instance.showMessageDialog(messages);
+            }
+        //]]>
+        </script></div>
+        <!-- add by lzb 20120521  无线模块时，去掉左端导航栏 -->
+        <script language="javascript">
+    //<![CDATA[
+        var obj = getFrameContent();
+        if(obj){
+            var frameContent = window.parent.document.getElementById("frameContent");
+            var specaility='';
+            try{
+                specaility = jQuery(frameContent.contentWindow.document).find("#specialPage").val();
+            }catch(error){
+                window.console.log('layout.xhtml error occur!!!')
+            }
+            
+            var objWidth = 175;
+            var parentWidth = window.parent.document.body.clientWidth;
+            if(specaility == "Y" ){
+                obj.style.display = "none";
+                frameContent.style.width = window.parent.document.body.clientWidth;
+            }else {
+                obj.style.display = "inline";
+                frameContent.style.width = parentWidth - 175;
+            }
+            
+        }
+        
+        function getFrameContent(){
+            var obj = null;
+            var objs = window.parent.document.getElementsByTagName("div");
+                    var obj = null;
+                    for(var i=0;i<objs.length;i++){
+                        var obj = objs[i];
+                        if(obj.className == 'sncNavigation'){
+                            break;
+                        }
+                    }
+            return obj;
+        }
+
+
+        //]]>
+    </script>
+</body>
+</html>

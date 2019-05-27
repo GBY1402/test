@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<html lang="zh_CN" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<link class="component"
+	href="/snc/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAFrvajdHLp8hjQAEgwDtA__"
+	rel="stylesheet" type="text/css" />
+<link class="component"
+	href="/snc/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAFrvajdHLp8hjQAEgwDtA__"
+	media="rich-extended-skinning" rel="stylesheet" type="text/css" />
+<script src="/snc/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript"
+	type="text/javascript">
+	
+</script>
+<script
+	src="/snc/a4j/g/3_3_3.Finalorg/ajax4jsf/javascript/scripts/form.js"
+	type="text/javascript">
+	
+</script>
+<script
+	src="/snc/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js"
+	type="text/javascript">
+	
+</script>
+</head>
+<body>
+	<span style="display: none;" id="alarmForm1:poll"><script
+			type="text/javascript">
+		//         
+		A4J.AJAX.Poll('alarmForm1', {
+			'pollId' : 'alarmForm1:poll',
+			'ignoreDupResponses' : true,
+			'implicitEventsQueue' : 'alarmForm1:poll',
+			'oncomplete' : function(request, event, data) {
+				init_page();
+			},
+			'similarityGroupingId' : 'alarmForm1:poll',
+			'parameters' : {
+				'alarmForm1:poll' : 'alarmForm1:poll'
+			},
+			'pollinterval' : 10000
+		});
+		//
+	</script></span>
+	<span id="alarmForm1:alarmLevelForSound" style="visibility: hidden">-1</span>
+	<meta name="Ajax-Update-Ids"
+		content="alarmForm1:poll,alarmForm1:alarmLevelForSound" />
+	<span id="ajax-view-state"><input type="hidden"
+		name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id2" /></span>
+	<meta id="Ajax-Response" name="Ajax-Response" content="true" />
+	<span id="org.ajax4jsf.oncomplete">init_page();</span>
+	<meta name="Ajax-Update-Ids"
+		content="alarmForm1:poll,alarmForm1:alarmLevelForSound" />
+	<span id="ajax-view-state"><input type="hidden"
+		name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id2" /></span>
+	<meta id="Ajax-Response" name="Ajax-Response" content="true" />
+	<span id="org.ajax4jsf.oncomplete">init_page();</span>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+.inv_content{
+	overflow: hidden;
+    margin: 1.16666667rem ;
+    padding-bottom: 1.86666667rem;
+}
+.inv_heard{
+	height: 1.227333333rem;
+	background: url(arir_inv_img/inv_back_line.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.inv_heard span{
+	padding-top:0.25rem ;
+	font-weight: 500;
+    font-size: .55333333rem;
+    color: #FFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+.body_inv{
+	margin: -0.14rem 6% 0rem 6%;
+	overflow: hidden;
+	background: #f6f6f6;
+}
+.inv__logo {
+	margin-top: 1.293333rem;
+    margin-bottom: .79333333rem;
+    overflow: hidden;
+    text-align: center;
+}
+.inv__logo img{
+    width: 4.5.7rem;
+    height: 2.92rem;
+    overflow: hidden;
+}
+.inv_line {
+	margin-top: 0.98888rem;
+	overflow: hidden;
+    position: relative;
+    padding-bottom: .66666667rem;
+}
+.inv_line .line{
+	border-bottom: 1px solid #b5b5b5;
+    height: 12px;
+}
+.inv_line span{
+	float: left;
+    text-align: center;
+    width: 33.3%;
+    font-size: .45333333rem;
+    color: #54b75d;
+}
+.inv_number{
+	position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: .66666667rem;
+}
+.inv_number span{
+	 line-height: 1.040rem;
+	font-size: .95333333rem;
+    color: #54b75d;
+}
+.inv_number .inv_btn{
+	margin:auto; 
+	width: 01rem;
+	font-size: .35333333rem;
+    color: #54b75d;
+    line-height: 0.6rem;
+    border: 1px solid #54b75d;
+    border-radius: .053333rem;
+    text-decoration: none;
+    color: #fff;
+    background: #54b75d;
+}
+.inv_text {
+	max-height: 1.6rem;
+    margin-top: .4rem;
+    margin-bottom: 0.3rem;
+    margin-left:1.0rem;
+    margin-right: 1.0rem;
+    overflow: hidden;
+    font-size: .37333333rem;
+    line-height: .53333333rem;
+    color: #666;
+    transition: all ease .4s;
+}
+.inv_text span{
+	color: #54b75d;
+}
+.inv_code {
+	position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: .06666667rem;
+}
+.inv_code .inv_qr_code{
+	margin:auto; 
+	height: 6.227333333rem;
+	width: 6.227333333rem;
+	background: url(arir_inv_img/inv_erweima.png) no-repeat;
+    background-size: 100% 100%;
+}
+.inv_code .inv_qr_code img{
+	padding: 54px;
+	height: 4.227333333rem;
+	width: 4.227333333rem;
+	overflow: hidden;
+}
+.inv_code .inv_code_footer{
+	max-height: 1.6rem;
+    margin-top: .4rem;
+    margin-bottom: 1.4rem;
+    overflow: hidden;
+    font-size: .37333333rem;
+    line-height: .53333333rem;
+    color: #666;
+    transition: all ease .4s;
+	
+}

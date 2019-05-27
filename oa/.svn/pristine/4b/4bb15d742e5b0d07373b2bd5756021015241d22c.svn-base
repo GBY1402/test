@@ -1,0 +1,515 @@
+html {
+	color: #000;
+	background: #fff;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+html * {
+    outline: 0;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html,
+body {
+	font-family: sans-serif
+}
+input,
+select,
+textarea {
+	font-size: 100%
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+fieldset,
+img {
+	border: 0
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, :before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+em, i {
+    font-style: normal;
+}
+#content {
+    overflow: hidden;
+    background: #F0F1F5;
+    padding-bottom: 1.86666667rem;
+}
+.job_recuit {
+   	width: 100%;
+    background: #fff;
+    padding: .07333333rem .4rem;
+}
+.job_title {
+    width: 100%;
+    padding: .44rem 0;
+    border-bottom: .01333333rem solid #e7e9eb;
+}
+.job_title .job_name {
+    font-weight: 500;
+    font-size: .45333333rem;
+    color: #000;
+}
+.job_title .job_salary {
+    font-size: .42666667rem;
+    color: #FD5F39;
+}
+.job_title .job_detail {
+    margin-top: .37333333rem;
+    padding-bottom: .16rem;
+}
+.job_title .job_detail div {
+    position: relative;
+    line-height: .76rem;
+    font-size: .4rem;
+    color: #333;
+    margin-right: .13333333rem;
+    padding-bottom: .05333333rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.job_title .job_detail div span {
+    width: 2.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.job_title .job_detail div:before {
+    content: '';
+    height: .37333333rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.job_title .job_detail .job_industry:before {
+    width: .29333333rem;
+    background: url(../img/industry.png) no-repeat;
+    background-size: 100% 100%;
+}
+.job_title .job_detail .job_work_year:before {
+    width: .37333333rem;
+    background: url(../img/job_work_year.png) no-repeat;
+    background-size: 100% 100%;
+}
+.job_title .job_detail .job_edu:before {
+    width: .48rem;
+    background: url(../img/job_edu.png) no-repeat;
+    background-size: 100% 100%;
+}
+.job_title .job_welfare {
+    font-size: .27333333rem;
+    line-height: .53333333rem;
+    color: #999;
+}
+.job_descript {
+    width: 100%;
+    padding: .37333333rem 0 0;
+}
+#content .des_title {
+    float:left;
+    line-height: .64rem;
+    font-size: .45333333rem;
+    color: #000;
+}
+#content .des_slide.down i {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg)
+}
+
+#content .des_slide.down span.down {
+	display: none
+}
+
+#content .des_slide.down span.up {
+	display: inline
+}
+
+#content .des_slide {
+	float: right;
+	position: relative;
+	padding-left: .32rem
+}
+
+#content .des_slide i {
+	position: absolute;
+	left: 0;
+	top: .18666667rem;
+	width: 0;
+	height: 0;
+	border-width: .1rem;
+	border-color: #666;
+	border-bottom-width: 0;
+	border-style: dashed;
+	border-top-style: solid;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	transition: all ease .4s
+}
+
+#content .des_slide span {
+	font-size: .4rem;
+	line-height: .56rem;
+	color: #666
+}
+
+#content .des_slide span.down {
+	display: inline
+}
+
+#content .des_slide span.up {
+	display: none
+}
+
+.des_clearfix {
+	*zoom: 1
+}
+.des_clearfix:after {
+    clear: both
+}
+.des_clearfix:before, .des_clearfix:after {
+    content: "";
+    display: table
+}
+.job_descript .descript {
+    max-height: none;
+    margin-top: .29333333rem;
+     margin-bottom: .29333333rem;
+    overflow: hidden;
+    font-size: .37333333rem;
+    line-height: .53333333rem;
+    color: #666;
+    transition: all ease .4s;
+}
+.job_descript .descript ol {
+	list-style-type: decimal;
+	padding-left: .66666667rem
+}
+
+.job_descript .descript ul {
+	list-style-type: disc;
+	padding-left: .66666667rem
+}
+#content .skill_title {
+    float:left;
+    line-height: .84rem;
+    font-size: .45333333rem;
+    color: #000;
+}
+.skill_clearfix {
+}
+.skill_clearfix:after {
+    clear: both;
+}
+.skill_clearfix:before, .skill_clearfix:after {
+    content: "";
+    display: table;
+}
+.job_descript .skill_view {
+    margin-top: .29333333rem;
+    margin-bottom: .59333333rem;
+    overflow: hidden;
+}
+.job_descript .skill_view img {
+    display: block;
+    float: left;
+    width: 6.5.7rem;
+    height: 4.92rem;
+    overflow: hidden;
+}
+.hr_info {
+	padding: .2rem;
+    margin-top: .16666667rem;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: .50666667rem solid #e7e9eb;
+}
+.hr_info img {
+    display: block;
+    float: left;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.hr_info .hr_left {
+    float: left;
+    margin-left: 0.526667rem;
+}
+.hr_info .hr_name {
+	margin-top: .140rem;
+    font-weight: 700;
+    line-height: .840rem;
+    font-size: .55333333rem;
+    color: #333;
+}
+.hr_info .hr_zhiwei {
+    font-weight: 500;
+    line-height: .540rem;
+    font-size: .25333333rem;
+    color: #B5B5B5;
+}
+.hr_info .hr_phone {
+	float: right;
+	margin-top: .240rem;
+    font-weight: 200;
+    line-height: .940rem;
+    font-size: .45333333rem;
+    color: #333;
+}
+.airi_app {
+    padding: .4rem;
+    margin-top: .26666667rem;
+    height: 1.86666667rem;
+    background: #fff;
+}
+.airi_app .airi_logo {
+    float: left;
+    width: 2.72rem;
+    height: 1.06666667rem;
+    background: url(../img/airi_logo.png) no-repeat;
+    background-size: 100% 100%;
+}
+.airi_app .airi_left {
+    float: left;
+    padding-top: .08rem;
+    padding-left: .2rem;
+}
+.airi_app .airi_left p:nth-child(1) {
+    line-height: .56rem;
+    font-size: .4rem;
+    color: #333;
+}
+.airi_app .airi_lefts p:nth-child(1) span.sec {
+    padding-left: .33333333rem;
+}
+.airi_app .airi_left p:nth-child(2) {
+    line-height: .37333333rem;
+    font-size: .26666667rem;
+    color: #999;
+}
+.airi_app .airi_btn {
+    float: right;
+    margin-top: .06666667rem;
+    width: 2.0rem;
+    height: .93333333rem;
+    line-height: .83333333rem;
+    text-align: center;
+    font-size: .24666667rem;
+    color: #fff;
+    background: #54b75d;
+    border-radius: .05333333rem;
+}
+.company_info {
+    overflow: hidden;
+    padding: .4rem;
+    margin-top: .26666667rem;
+    background: #fff;
+}
+.company_info .com_logo {
+    overflow: hidden;
+    padding-bottom: .4rem;
+    border-bottom: .01333333rem solid #e7e9eb;
+}
+.company_info .com_logo img {
+    display: block;
+    float: left;
+    width: 1.37333333rem;
+    height: 1.37333333rem;
+}
+.company_info .com_logo .com_left {
+    float: left;
+    width: 7.33333333rem;
+    margin-left: .38666667rem;
+}
+.company_info .com_logo .com_name {
+    line-height: .64rem;
+    font-size: .45333333rem;
+    color: #333;
+}
+.company_info .com_logo .com_type {
+    line-height: .49333333rem;
+    font-size: .24666667rem;
+    color: #666;
+}
+.company_info .com_adress {
+	line-height: .44rem;
+    font-size: .22rem;
+    color: #999;
+}
+.company_info .com_descript {
+    overflow: hidden;
+    margin-top: .4rem;
+    padding-bottom: .4rem;
+}
+#content .com_title {
+    float: left;
+    line-height: .64rem;
+    font-size: .45333333rem;
+    color: #000;
+}
+#content .com_slide.down i {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg)
+}
+
+#content .com_slide.down span.down {
+	display: none
+}
+
+#content .com_slide.down span.up {
+	display: inline
+}
+
+#content .com_slide {
+	float: right;
+	position: relative;
+	padding-left: .32rem
+}
+
+#content .com_slide i {
+	position: absolute;
+	left: 0;
+	top: .18666667rem;
+	width: 0;
+	height: 0;
+	border-width: .1rem;
+	border-color: #666;
+	border-bottom-width: 0;
+	border-style: dashed;
+	border-top-style: solid;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	transition: all ease .4s
+}
+
+#content .com_slide span {
+	font-size: .4rem;
+	line-height: .56rem;
+	color: #666
+}
+
+#content .com_slide span.down {
+	display: inline
+}
+
+#content .com_slide span.up {
+	display: none
+}
+
+.company_info .com_descript .com_desc_show {
+    max-height: 1.6rem;
+    margin-top: .4rem;
+    overflow: hidden;
+    font-size: .37333333rem;
+    line-height: .53333333rem;
+    color: #666;
+    transition: all ease .4s;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 2.026667rem;
+    line-height: 2.026667rem;
+    text-align: center;
+    font-size: .453333rem;
+}
+.footer .opacity {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.footer .buttons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.footer .submit_resume {
+    display: inline-block;
+    height: 1.2rem;
+    width: 2.773333rem;
+    line-height: 1.2rem;
+    border: 1px solid #54b75d;
+    border-radius: .053333rem;
+    text-align: center;
+    text-decoration: none;
+    color: #54b75d;
+    background: #fff;
+}
+.footer .downloa_app {
+    display: inline-block;
+    height: 1.2rem;
+    width: 6rem;
+    line-height: 1.2rem;
+    margin-left: .4rem;
+    text-align: center;
+    border: 1px solid #54b75d;
+    border-radius: .053333rem;
+    text-decoration: none;
+    color: #fff;
+    background: #54b75d;
+}
+.tips_mask {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 1.6rem .8rem;
+	background: rgba(0, 0, 0, .8);
+	color: #fff;
+	text-align: right
+}
+
+.tips_mask .line p {
+	display: inline-block;
+	width: 3.6rem;
+	font-size: .48rem;
+	line-height: .8rem;
+	color: #00b38a
+}
+
+.tips_mask .line .arrow {
+	display: inline-block;
+	width: 1.02666667rem;
+	height: .88rem;
+	line-height: .8rem;
+	background: url(../img/tips_ae9d39e.png) no-repeat;
+	background-size: 100% 100%
+}
+
+.tips_mask p {
+	font-size: .48rem;
+	color: #fff
+}

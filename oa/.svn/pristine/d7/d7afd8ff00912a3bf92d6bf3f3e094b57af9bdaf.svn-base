@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+table.gridtable {
+
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #C1FFC1;
+    border-collapse: collapse;
+    width: 94%;
+    margin: 0px auto;
+}
+
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #b8d0d6;
+    background-color: #ffffff;
+    width: 125px;
+}

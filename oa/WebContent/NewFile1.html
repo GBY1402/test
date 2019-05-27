@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<html lang="zh_CN" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<link class="component"
+	href="/snc/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAFrvajdHLp8hjQAEgwDtA__"
+	rel="stylesheet" type="text/css" />
+<link class="component"
+	href="/snc/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAFrvajdHLp8hjQAEgwDtA__"
+	media="rich-extended-skinning" rel="stylesheet" type="text/css" />
+<script src="/snc/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript"
+	type="text/javascript">
+	
+</script>
+<script
+	src="/snc/a4j/g/3_3_3.Finalorg/ajax4jsf/javascript/scripts/form.js"
+	type="text/javascript">
+	
+</script>
+<script
+	src="/snc/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js"
+	type="text/javascript">
+	
+</script>
+</head>
+<body>
+	<div id="alarmForm1:alarmCount" style="padding-top: 2px;">
+		<div id="alarmForm1:j_id12263"
+			style="height: 32px; background-image: url(alarm/tips/css/images/box.png); background-repeat: no-repeat; background-size: 106px 30px;">
+			<ul class="alarm">
+				<li class="levelCritical"><a href="#" id="alarmForm1:j_id12265"
+					name="alarmForm1:j_id12265"
+					onclick="mask();A4J.AJAX.Submit('alarmForm1',event,{'oncomplete':function(request,event,data){maskHide();Layout.instance.changeLayout('sncLayout', '/alarm/historyManagement.seam?cid=202')},'similarityGroupingId':'alarmForm1:j_id12265','parameters':{'eventLevelId':'6','alarmForm1:j_id12265':'alarmForm1:j_id12265'} } );return false;"
+					onfocus="UI.instance.closepop()"
+					style="color: color; text-align: center;" title="0">0</a></li>
+				<li class="levelMajor"><a href="#" id="alarmForm1:j_id12269"
+					name="alarmForm1:j_id12269"
+					onclick="mask();A4J.AJAX.Submit('alarmForm1',event,{'oncomplete':function(request,event,data){maskHide();Layout.instance.changeLayout('sncLayout', '/alarm/historyManagement2.seam?cid=202')},'similarityGroupingId':'alarmForm1:j_id12269','parameters':{'eventLevelId':'5','alarmForm1:j_id12269':'alarmForm1:j_id12269'} } );return false;"
+					onfocus="UI.instance.closepop()"
+					style="color: color; text-align: center;" title="0">0</a></li>
+				<li class="levelNormal"><a href="#" id="alarmForm1:j_id12273"
+					name="alarmForm1:j_id12273"
+					onclick="mask();A4J.AJAX.Submit('alarmForm1',event,{'oncomplete':function(request,event,data){maskHide();Layout.instance.changeLayout('sncLayout', '/alarm/historyManagement3.seam?cid=202')},'similarityGroupingId':'alarmForm1:j_id12273','parameters':{'alarmForm1:j_id12273':'alarmForm1:j_id12273','eventLevelId':'4'} } );return false;"
+					onfocus="UI.instance.closepop()"
+					style="color: color; text-align: center;" title="0">0</a></li>
+				<li class="text"><a href="#" id="alarmForm1:alarmLink"
+					name="alarmForm1:alarmLink"
+					onclick="changeSound();A4J.AJAX.Submit('alarmForm1',event,{'similarityGroupingId':'alarmForm1:alarmLink','parameters':{'alarmForm1:alarmLink':'alarmForm1:alarmLink'} } );return false;"
+					title="关闭声音通知"><img id="alarmForm1:alarmSound"
+						src="images/open.png" style="border: 0px; margin-top: 0px" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<span style="display: none;" id="j_id20:testPoll1"><script
+			type="text/javascript">
+		//         
+		A4J.AJAX.Poll('j_id20', {
+			'pollId' : 'j_id20:testPoll1',
+			'oncomplete' : function(request, event, data) {
+				setSounPng();
+			},
+			'similarityGroupingId' : 'j_id20:testPoll1',
+			'parameters' : {
+				'j_id20:testPoll1' : 'j_id20:testPoll1',
+				'ajaxSingle' : 'j_id20:testPoll1'
+			},
+			'pollinterval' : 3000
+		});
+		//
+	</script></span>
+	<meta name="Ajax-Update-Ids"
+		content="alarmForm1:alarmCount,j_id20:testPoll1" />
+	<span id="ajax-view-state"><input type="hidden"
+		name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id2" /></span>
+	<meta id="Ajax-Response" name="Ajax-Response" content="true" />
+	<span id="org.ajax4jsf.oncomplete">setSounPng();</span>
+	<meta name="Ajax-Update-Ids"
+		content="alarmForm1:alarmCount,j_id20:testPoll1" />
+	<span id="ajax-view-state"><input type="hidden"
+		name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id2" /></span>
+	<meta id="Ajax-Response" name="Ajax-Response" content="true" />
+	<span id="org.ajax4jsf.oncomplete">setSounPng();</span>
+</body>
+</html>
